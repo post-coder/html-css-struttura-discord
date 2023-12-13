@@ -176,13 +176,13 @@ footer #footer-bottom {
     margin-top: 16px;
 }
 
-footer #footer-bottom .row {
+footer #footer-bottom {
     justify-content: space-between;
 
     padding: 16px 0;
 }
 
-footer #footer-bottom .row > * {
+footer #footer-bottom > * {
     background-color: #ffb6c1;
     /* test */
 
