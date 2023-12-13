@@ -6,6 +6,7 @@
 /* reset */
 
 
+/* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
     border: dashed 2px black;
     /* test */
@@ -27,6 +28,18 @@
 }
 
 
+header, section {
+    padding: 40px 20px;
+}
+
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+
+
+
 /* sezione navbar */
 nav {
     background-color: #add8e6;
@@ -46,7 +59,6 @@ nav .container {
     /* test */
 
     display: flex;
-    justify-content: space-between;
 
 }
 
@@ -78,8 +90,6 @@ nav .login {
 #hero {
     background-color: #00008b;
     /* test */
-
-    padding: 40px 20px;
 }
 
 #hero .container-small {
@@ -89,3 +99,36 @@ nav .login {
 
 
 /* fine sezione hero */
+
+
+
+.row {
+    display: flex;
+}
+
+.column-big {
+    background-color: #1e90ff;
+    height: 400px;
+    border: dashed 2px black;
+    /* test */
+
+    /* width: 60%; */
+    flex-grow: 1;
+}
+
+.column-small {
+    background-color: #ffc0cb;
+    height: 400px;
+    border: dashed 2px black;
+    /* test */
+
+    /* width: 40%; */
+    width: 400px;
+}
+
+
+.big-content {
+    background-color: #228b22;
+    height: 600px;
+    /* test */
+}
