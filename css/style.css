@@ -101,7 +101,7 @@ nav .login {
 /* fine sezione hero */
 
 
-
+/* sezioni grigie */
 .row {
     display: flex;
 }
@@ -132,3 +132,61 @@ nav .login {
     height: 600px;
     /* test */
 }
+/* fine sezioni grigie */
+
+
+/* sezione footer */
+
+footer {
+    background-color: #23272a;
+    /* test */
+
+    padding-top: 8px;
+}
+
+
+footer .container > * {
+    border: dashed 2px white;
+    /* test */
+}
+
+
+footer #footer-top {
+    margin-bottom: 30px;
+}
+
+footer #footer-top .footer-links {
+    background-color: #f08080;
+    height: 500px;
+    width: 250px;
+    /* test */
+}
+
+footer #footer-top .footer-column {
+    background-color: #20b2aa;
+    /* test */
+    
+    flex-grow: 1;
+}
+
+footer #footer-bottom {
+    background-color: #7fffd4;
+    /* test */
+
+    margin-top: 16px;
+}
+
+footer #footer-bottom .row {
+    justify-content: space-between;
+
+    padding: 16px 0;
+}
+
+footer #footer-bottom .row > * {
+    background-color: #ffb6c1;
+    /* test */
+
+    padding: 4px 8px;
+}
+
+/* fine sezione footer */
